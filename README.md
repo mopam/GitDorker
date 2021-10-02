@@ -42,7 +42,7 @@ Help Output:
 ```bash
 
 ## Build Command
-docker build -t gitdorker .
+docker build -t gitdorker . --network host
 
 ## Basic Run Command
 docker run -it gitdorker
